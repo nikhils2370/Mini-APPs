@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="CSS/weather.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Weather App</a>
+        <div class="link">
+            <a href="index.html">Movies App</a>
+            <a href="translator.html">Translator App</a>
+            <a href="weather.html">Weather App</a>
+        </div>
+    </header>
+    <div class="weather-Box">
+        <h2>⛅Weather App</h2>
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name...">
+            <button id="weather-btn">Check</button>
+        </div>
+
+        <div id="loader" class="hidden">Reading the clouds...</div>
+        <div id="error" class="hidden"></div>
+
+        <div id="display" class="card hidden">
+            <h3 id="city-name">jaisalmer</h3>
+            <img id="weather-icon" src="" alt="Weather Icon">
+            <h1 id="temperature">34%</h1>
+            <p id="condition">Partly Cloudy</p>
+            <div class="details">
+                <div class="col">💧 Humidity: <span id="humidity">34%</span></div>
+            </div>
+        </div>
+    </div>
+    <script src="Script JS/weather.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="CSS/translator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo"> <i class="fa-solid fa-language">Translator</i> </a>
+        <div class="link">
+            <a href="index.html">Movies App</a>
+            <a href="translator.html">Translator App</a>
+            <a href="weather.html">Weather App</a>
+        </div>
+    </header>
+
+    <div class="translator-container">
+        <div class="header">
+            <h1><i class="fa-solid fa-language"></i> QuickTranslate</h1>
+        </div>
+        <div class="card">
+            <div class="text-areas">
+                <div class="input-box">
+                    <textarea id="text-input" placeholder="Enter text here..." maxlength="5000"></textarea>
+                </div>
+
+                <div class="output-box">
+                    <textarea id="text-output" placeholder="Translation will appear here..." readonly></textarea>
+                </div>
+            </div>
+            <button id="translate-btn">Translate</button>
+        </div>
+    </div>
+    <script src="Script JS/translator.js"></script>
+
+</body>
+
+</html>

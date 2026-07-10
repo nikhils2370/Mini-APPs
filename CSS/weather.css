@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(37, 36, 36, 0.61);
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.link {
+  display: flex;
+  gap: 15px;
+}
+.link a {
+  padding: 10px 5px;
+  border-bottom: 1px dotted rgb(250, 248, 248);
+  font-weight: 700;
+  transition: 0.3s;
+  border-radius: 10px 10px 0 0;
+}
+.link a:hover {
+  background: #ffffff;
+  color: #000000;
+  border-bottom: 1px dotted rgb(0, 0, 0);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+body {
+  /* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+  /* background: url("https://giffiles.alphacoders.com/178/17827.gif"); */
+  /* background: url("https://i.pinimg.com/originals/1d/51/f6/1d51f66279173a40c2efc536ebe96786.gif") no-repeat center center/cover; */
+  background: url("https://giffiles.alphacoders.com/194/19490.gif") no-repeat
+    center center/cover;
+  font-family: sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.weather-Box {
+  background: rgba(37, 36, 36, 0.61);
+  border-radius: 16px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 360px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 1.5rem;
+  margin-top: 10px;
+}
+input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  color: #000000;
+  font-weight: 500;
+}
+button {
+  background: #00d2ff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card h1 {
+  font-size: 3.5rem;
+  margin: 10px 0;
+  font-weight: 300;
+}
+.card h3 {
+  margin: 0;
+  opacity: 0.8;
+}
+#icon {
+  width: 100px;
+  height: 100px;
+}
+.details {
+  margin-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 15px;
+}
+
+.hidden {
+  display: none;
+}
+#error {
+  background: rgba(239, 68, 68, 0.2);
+  border: 1px solid #f00707;
+  padding: 10px;
+  border-radius: 6px;
+}
