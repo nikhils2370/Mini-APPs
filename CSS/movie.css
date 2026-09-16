@@ -195,3 +195,14 @@ header {
   color: #ffb400;
   font-size: 14px;
 }
+
+
+.not{
+  /* position: absolute; */
+  width: 100vh;
+  z-index: 1000;
+  background: #ffff;
+  border-radius: 20px;
+  padding: 2rem;
+  color: #e50914;
+}
